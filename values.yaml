@@ -1,0 +1,14 @@
+appName: myapi
+
+port: 4000
+
+namespace: vdt-api
+
+configmap:
+  name: myhelmapp-configmap-v2
+  data:
+    CUSTOM_HEADER: 'This app was deployed DoTrang!'
+
+image:
+  name: trangdt25/myapivdt
+  tag: v1.0.1
