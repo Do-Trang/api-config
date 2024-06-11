@@ -11,4 +11,4 @@ configmap:
 
 image:
   name: trangdt25/myapivdt
-  tag: v1.0.7
+  tag: v1.0.8
